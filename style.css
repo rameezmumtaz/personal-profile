@@ -1,0 +1,107 @@
+/* ---------- Base ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px 16px;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background-color: #e8eef7;
+}
+
+/* ---------- Card / container ---------- */
+.card {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border: 2px solid #1e3a8a;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(30, 58, 138, 0.15);
+}
+
+/* ---------- Header ---------- */
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 24px;
+  border-bottom: 3px solid #1e3a8a;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #1e3a8a;
+}
+
+.tagline {
+  margin: 6px 0 0;
+  font-size: 1.1rem;
+  color: #4b5563;
+}
+
+/* ---------- Sections ---------- */
+section {
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  padding-left: 10px;
+  font-size: 1.4rem;
+  color: #1e3a8a;
+  border-left: 5px solid #f59e0b;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* ---------- Skills list ---------- */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 6px 14px;
+  background-color: #dbeafe;
+  color: #1e3a8a;
+  border: 1px solid #93c5fd;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+a:hover,
+a:focus {
+  color: #b45309;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  .card {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
